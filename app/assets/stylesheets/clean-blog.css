@@ -8,6 +8,7 @@ body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
   color: #404040;
+   background-image: url("brige.jpg");
 }
 p {
   line-height: 1.5;
@@ -15,6 +16,8 @@ p {
 }
 p a {
   text-decoration: underline;
+  
+  
 }
 h1,
 h2,
@@ -24,6 +27,7 @@ h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
+  color:#000000;
 }
 a {
   color: #404040;
@@ -53,6 +57,7 @@ hr.small {
   width: 100%;
   z-index: 3;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
@@ -62,6 +67,7 @@ hr.small {
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 1px;
+
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
@@ -74,15 +80,15 @@ hr.small {
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(229,229,229);
   }
   .navbar-custom .nav li a {
-    color: white;
+    color: #000000;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(242,201,201);
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -141,6 +147,7 @@ hr.small {
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 50px;
+  
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
